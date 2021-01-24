@@ -8,30 +8,30 @@ namespace GameConsole
         static void Main(string[] args)
         {
             Console.Clear();
-            var loading = 0;
+            var loadingCounter = 0;
             Console.CursorVisible = false;
             while (true)
             {
                 Task.Delay(100).Wait();
                 Console.SetCursorPosition(0,0);
                 Console.Write("Loading... ");
-                switch (loading)
+                switch (loadingCounter)
                 {
                     case 0:
                         Console.Write("-");
-                        loading++;
+                        loadingCounter++;
                         break;
                     case 1:
                         Console.Write("\\");
-                        loading++;
+                        loadingCounter++;
                         break;
                     case 2:
                         Console.Write("|");
-                        loading++;
+                        loadingCounter++;
                         break;
                     default:
                         Console.Write("/");
-                        loading = 0;
+                        loadingCounter = 0;
                         break;
                         
                 }
