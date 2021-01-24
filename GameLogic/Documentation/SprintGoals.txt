@@ -9,8 +9,21 @@ Rules:
 
 
 10h: Controls
-    1. Player "X" can be controlled by wasd.
+    1. Main menu: New Game and Exit
+    2. Player "X" can be controlled by wasd.
+    3. Basic Error Handling - Either, ErrorOutput
+    4. Basic WorldBuilds Testing
+    
+    Characters - Player
+    World - Room
+    
+    World1 Project that sets a room and the player 
+    GameConsole Program that sets up menu and load world
+    Key Controls https://social.msdn.microsoft.com/Forums/vstudio/en-US/310af98a-5b7c-4393-a944-abf200134ed1/performing-a-loop-until-key-is-hit?forum=csharpgeneral
+    WorldBuildTesting: 
+        - Unit tests in Game Logic
+        - Property Tests to prevent moving outside of the world
     
 20h: Basic World Properties
-    2. Player X can't run over blocking tiles
-    3. Player X can change between two rooms
+    5. Player X can't run over blocking tiles
+    6. Player X can change between two rooms

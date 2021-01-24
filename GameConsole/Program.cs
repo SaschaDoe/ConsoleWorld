@@ -8,37 +8,18 @@ namespace GameConsole
         static void Main(string[] args)
         {
             Console.Clear();
-            var loadingCounter = 0;
             Console.CursorVisible = false;
-            while (true)
+            
+            Console.WriteLine("Console World");
+            Console.WriteLine();
+            Console.WriteLine("1 New Game");
+            Console.WriteLine("or Exit");
+            var input = Console.ReadLine();
+            if (input.Equals("1"))
             {
-                Task.Delay(100).Wait();
-                Console.SetCursorPosition(0,0);
-                Console.Write("Loading... ");
-                switch (loadingCounter)
-                {
-                    case 0:
-                        Console.Write("-");
-                        loadingCounter++;
-                        break;
-                    case 1:
-                        Console.Write("\\");
-                        loadingCounter++;
-                        break;
-                    case 2:
-                        Console.Write("|");
-                        loadingCounter++;
-                        break;
-                    default:
-                        Console.Write("/");
-                        loadingCounter = 0;
-                        break;
-                        
-                }
-               
                 
             }
-            
+
         }
     }
 }
