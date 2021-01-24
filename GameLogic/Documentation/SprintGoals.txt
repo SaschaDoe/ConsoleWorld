@@ -1,0 +1,16 @@
+# World Kata
+
+Rules:
+    1. Every 10h stable release that meet the sprint goals
+    2. Sprint goals 20h ahead planed (name and basic goals) not more than 0.5h
+    3. Next 10h sprint planed / designed not more than 0.5h
+    4. 100h a year minimum
+    5. Only Console and standard frameworks
+
+
+10h: Controls
+    1. Player "X" can be controlled by wasd.
+    
+20h: Basic World Properties
+    2. Player X can't run over blocking tiles
+    3. Player X can change between two rooms
